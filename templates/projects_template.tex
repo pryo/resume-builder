@@ -1,0 +1,17 @@
+\section{Academic Projects}
+\resumeSubHeadingListStart
+
+
+
+\BLOCK{for project in projects}
+\resumeSubheading
+{\href{\VAR{project.url}} {\VAR{project.name}}}{\VAR{project.entity|replace("None","Academic")}}
+    {\VAR{project.roles|join(",")}}{\VAR{project.startDate}-  \VAR{project.endDate|replace("None","current")}}
+    \begin{description}[font=$\bullet$]
+        %% for highlight in project.highlights
+        \item {\VAR{highlight|replace("$","\$")|replace("%","\%")}}
+        %%endfor
+    \end{description}
+\BLOCK{endfor}
+
+\resumeSubHeadingListEnd

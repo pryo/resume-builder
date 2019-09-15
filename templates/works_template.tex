@@ -1,0 +1,18 @@
+
+
+\section{Experience}
+
+\resumeSubHeadingListStart
+\BLOCK{for work in works}
+\resumeSubheading
+    {\VAR{work.company}}{\VAR{work.location|replace("None","MD,USA")}}
+    {\VAR{work.position}}{\VAR{work.startDate}-  \VAR{work.endDate|replace("None","current")}}
+    \begin{description}[font=$\bullet$]
+        %% for highlight in work.highlights
+        \item {\VAR{highlight|replace("$","\$")}}
+        %%endfor
+    \end{description}
+\BLOCK{endfor}
+
+
+\resumeSubHeadingListEnd

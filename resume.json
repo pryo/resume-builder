@@ -1,0 +1,289 @@
+{
+  "basics": {
+    "name": "zuo wang",
+    "label": "Software Development Engineer",
+    "picture": "",
+    "email": "w.zuo@hotmail.com",
+    "phone": "4435629996",
+    "website": "",
+    "summary": "Seeking full-time SDE or machine leanring engineer roles in US and EU.",
+    "profiles": [
+      {
+        "network": "github",
+        "username": "pryo",
+        "url": "http://github.com/pryo"
+      },
+      {
+        "network": "linkedin",
+        "username": "zuo wang",
+        "url": "https://www.linkedin.com/in/zuo-wang-501047110/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "NeuroView Diagnostics, LLC",
+      "position": "Engineering Consultant",
+      "website": "http://www.neuroview.co/",
+      "startDate": "2019-04-22",
+      "summary": "Description...",
+      "highlights": [
+        "Leading the development of a video-based stroke automatic detection platform to enable low-cost early screening.",
+        "Designed scalable distributed Flask + Gunicorn service on GCE achieving $0.0001 per request on 1 million requests."
+      ]
+    },
+    {
+      "company": "Johns Hopkins University, Astrophysics",
+      "position": "Research Assistant",
+      "website": "http://idies.jhu.edu/",
+      "startDate": "2017-06-01",
+      "endDate": "2018-12-22",
+      "summary": "Description...",
+      "highlights": [
+        "Developed frontend and backend data visualization module in Python for NSF founded space telescope project.",
+        "Developed a spectrum accessing API to query PB amount of astronomical data from the clustered SQL server."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Johns Hopkins University",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2016-09-01",
+      "endDate": "2018-12-22",
+      "gpa": "3.9",
+      "courses": []
+    },
+    {
+      "institution": "Queen Mary University of London",
+      "area": "Telecommunication Engineering",
+      "studyType": "Bachelor Of Science with Honours-Second Class (Upper Division)",
+      "startDate": "2012-09-01",
+      "endDate": "2016-05-30",
+      "gpa": "3.7",
+      "courses": []
+    },
+    {
+      "institution": "Johns Hopkins University",
+      "area": "Information security",
+      "studyType": "Master",
+      "startDate": "2016-09-01",
+      "endDate": "2018-12-22",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Beijing University of Post and Telecommunication",
+      "area": "Telecommunication Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2012-09-01",
+      "endDate": "2016-05-30",
+      "gpa": "3.7",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "The Mathematical Contest in Modeling-Honorable Mentions",
+      "date": "2015-01-28",
+      "awarder": "Consortium for Mathematics and Its Applications",
+      "summary": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "Enhanced isocitrate dehydrogenase mutation classification in lower grade gliomas with deep learning and CEST and MTC MRI",
+      "publisher": "ISMRM",
+      "releaseDate": "2019-5-29",
+      "website": "http://www.ismrm.org/19m/",
+      "summary": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Hyperopt-GBT",
+      "description": "An opensource general purpose stacking model framework",
+      "highlights": [
+        "Developed a general purpose stacking framework around Sklearn API that support lightGBM and XGB library (open source).",
+        "The framework enables running tuning tasks concurrently on multi-GPU grid using MongoDB as asynchronous parallel communication hub."
+      ],
+      "keywords": [
+        "opensource",
+        "MongoDB"
+      ],
+      "startDate": "2019-02-24",
+      "endDate": "2019-04-25",
+      "url": "https://github.com/pryo/hyperopt-GBT",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "github",
+      "type": "application",
+      "tag": [
+        "machine learning engineer",
+        "SDE"
+      ]
+    },
+    {
+      "name": "SyWorld",
+      "description": "A java desktop app combines your computers(cross-platform) into one cohesive experience with enhanced network transmission",
+      "highlights": [
+        "Developed a cross-platform remote desktop that enables a user to control multiple terminals using one set of peripheral devices that runs on Windows, Linux, Mac OS simultaneously.",
+        "Optimized the TCP/IP protocol to create a LAN source-less P2P mutex protocol, reduced lagging 300 times.",
+        "Developed an SHA256 encrypted communication and certification module for grid communication.",
+        "Writing the test case for the project with Junit, code coverage 98%."
+      ],
+      "keywords": [
+        "Junit",
+        "cross-platform",
+        "TCP/IP",
+        "SHA256"
+      ],
+      "startDate": "2017-06-05",
+      "endDate": "2017-09-01",
+      "url": "",
+      "roles": [
+        "Developer",
+        "Product Manager"
+      ],
+      "entity": "",
+      "type": "application",
+      "tag": [
+        "information security",
+        "SDE"
+      ]
+    },
+    {
+      "name": "Social network surveillance",
+      "description": "A real-time Twitter hashtag abuse monitoring and alerting system",
+      "highlights": [
+        "Utilized Twitter real-time API to acquire high concurrent post and streaming with Kafka.",
+        "Created topic modelling for general public posts contains monitored hashtag using Amazon Comprehend,topic of suspect post was compared with general public to detect mismatch.",
+        "Deployed the server on Amazon EC2 with using Django."
+      ],
+      "keywords": [
+        "Kafka",
+        "topic modelling",
+        "AWS",
+        "Django"
+      ],
+      "startDate": "2017-04-05",
+      "endDate": "2017-06-01",
+      "url": "",
+      "roles": [
+        "Developer",
+        "Product Manager"
+      ],
+      "entity": "ZeroFox, Inc",
+      "type": "application",
+      "tag": [
+        "machine learning engineer",
+        "SDE"
+      ]
+    },
+    {
+      "name": "Automated Indicator Sharing",
+      "description": "A cyber intrusion detection system based on Department of Homeland Security's (DHS) free Automated Indicator Sharing project.",
+      "highlights": [
+        "Implemented a LSTM model using tensorflow to achieve multi-classification on natural language reports, achieving 30% more on classification accuracy than keyword-based detection system.",
+        "Deployed model on Amazon Elastic Inference."
+      ],
+      "keywords": [
+        "Amazon Elastic Inference",
+        "tensorflow"
+      ],
+      "startDate": "2017-09-05",
+      "endDate": "2017-12-01",
+      "url": "https://github.com/pryo/ais-ml",
+      "roles": [
+        "Developer",
+        "Product Manager"
+      ],
+      "entity": "APL",
+      "type": "application",
+      "tag": [
+        "machine learning engineer",
+        "information security"
+      ]
+    },
+    {
+      "name": "Enhanced isocitrate dehydrogenase mutation classification",
+      "description": "A python-based computer vision platform for medical image processing and classification (publication).",
+      "highlights": [
+        "Designed a 3D Medical Imagery processing toolkit using Python that makes it 30x faster than using 3D Slicer",
+        "Conducted deep learning research on MRI data using pytorch, improved 15% over state-of-art deep leaning publication, arriving at 0.80 AUC."
+      ],
+      "keywords": [
+        "Pytorch"
+      ],
+      "startDate": "2018-05-20",
+      "endDate": "2019-03-01",
+      "url": "https://github.com/pryo/MRI_deeplearning",
+      "roles": [
+        "Research Assistant"
+      ],
+      "entity": "Johns Hopkins School of Medicine, MR Research",
+      "type": "Research",
+      "tag": [
+        "machine learning engineer"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Machine Learning",
+      "level": "Master",
+      "keywords": [
+        "Pytorch",
+        "tensorflow",
+        "Deep Learning ",
+        "Computer Vision",
+        "NLP"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "jinja2",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React"
+      ]
+    },
+    {
+      "name": "Programming language",
+      "level": "Master",
+      "keywords": [
+        "Java",
+        "Python",
+        "C++",
+        "Scala",
+        "Matlab"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "Master",
+      "keywords": [
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Cassandra",
+        "Hive",
+        "Postgresql"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "meta": {
+    "theme": "elegant"
+  }
+}

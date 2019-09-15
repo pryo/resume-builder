@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+  <object class="tk.Toplevel" id="toplevel">
+    <property name="height">400</property>
+    <property name="resizable">both</property>
+    <property name="title" translatable="yes">resume</property>
+    <property name="width">600</property>
+    <child>
+      <object class="tk.Frame" id="Frame_1">
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="propagate">True</property>
+        </layout>
+        <child>
+          <object class="tk.Listbox" id="education_lst">
+            <property name="exportselection">false</property>
+            <property name="selectmode">multiple</property>
+            <property name="width">50</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Listbox" id="project_lst">
+            <property name="exportselection">false</property>
+            <property name="selectmode">multiple</property>
+            <property name="width">40</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Listbox" id="skills_lst">
+            <property name="exportselection">false</property>
+            <property name="selectmode">multiple</property>
+            <property name="width">24</property>
+            <layout>
+              <property name="column">2</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="education_label">
+            <property name="text" translatable="yes">educations:</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="project_label">
+            <property name="text" translatable="yes">projets:</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="skill_label">
+            <property name="text" translatable="yes">skills:</property>
+            <layout>
+              <property name="column">2</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="input_tag">
+            <property name="text" translatable="yes">input tag:</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="generate_btn">
+            <property name="command">generate</property>
+            <property name="text" translatable="yes">Generate</property>
+            <layout>
+              <property name="column">2</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Entry" id="tag_entry">
+            <property name="text" translatable="yes">
+</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
