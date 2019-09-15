@@ -1,6 +1,7 @@
 General idea and user case:
 Applicants have to change their resume base one different JDs, i.e. changing project experience, job experience and skill set.
 Sometimes, they need to change their detailed highlight in work/project experience, in order to match the tech stack in the JD.
+![screenshot](./screenshot.PNG)
 
 Note: change conf/local.ini Name to your own name that match the json record.
 The Mongodb should be installed and up running(host and port should be specified.)
