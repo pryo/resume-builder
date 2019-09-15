@@ -6,7 +6,7 @@ from pathlib import Path
 from database.tools import Getter
 class Composer:
 
-    def __init__(self,conf_pathgit):
+    def __init__(self,conf_path):
 
         self.config = configparser.ConfigParser()
         read_done=self.config.read(Path(conf_path).resolve())
